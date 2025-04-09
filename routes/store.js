@@ -5,7 +5,7 @@ const router = Router();
 
 // Obtener todos los artículos de la tabla store
 router.get('/', async (req, res) => {
-    const sql = 'SELECT store_id, CODART, NOMART, UNIDADMED FROM store';
+    const sql = 'SELECT store_id, NOMART, UNIDADMED FROM store';
 
     try {
         const [results] = await db.query(sql);

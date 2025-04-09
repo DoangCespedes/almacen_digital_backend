@@ -32,6 +32,26 @@ const Request = db.define('Request', {
         type: DataTypes.STRING(16),
         allowNull: true,
     },
+    NOMEMP: { // Campo agregado
+        type: DataTypes.STRING(16),
+        allowNull: true,
+    },
+    CORREO: { // Campo agregado
+        type: DataTypes.STRING(16),
+        allowNull: true,
+    },
+    NOMDPTO: { // Campo agregado
+        type: DataTypes.STRING(16),
+        allowNull: true,
+    },
+    NOMCOMP: { // Campo agregado
+        type: DataTypes.STRING(16),
+        allowNull: true,
+    },
+    NOMTORRE: { // Campo agregado
+        type: DataTypes.STRING(16),
+        allowNull: true,
+    },
     FECREG: {
         type: DataTypes.DATE,
         allowNull: true,
